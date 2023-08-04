@@ -29,7 +29,7 @@ def send_sms(from_number, to_number, text):
         platform.post('/restapi/v1.0/account/~/extension/~/sms',
         {
             'from' : { 'phoneNumber': +19493540728 },
-            'to'   : [ {'phoneNumber': +917319746966} ],
+            'to'   : [ {'phoneNumber': +917319*****} ],
             'text' : 'Hello World from Python'
         })
         body_params = {
@@ -60,7 +60,7 @@ if __name__ == "__main__":
     login()
 
     # Example: Sending an SMS
-    send_sms('+19493540728', '+917319746966', 'Hello, this is a test message!')
+    send_sms('+19493540728', '+917319****', 'Hello, this is a test message!')
 
     # Example: Receiving messages
     receive_sms()
