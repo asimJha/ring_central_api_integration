@@ -60,7 +60,7 @@ if __name__ == "__main__":
     login()
 
     # Example: Sending an SMS
-    send_sms('+19493540728', '+917319****', 'Hello, this is a test message!')
+    send_sms('+19493*******', '+917319****', 'Hello, this is a test message!')
 
     # Example: Receiving messages
     receive_sms()
